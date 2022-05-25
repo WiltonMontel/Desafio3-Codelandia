@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  height: 560px;
+  padding-top: 130px;
+  padding-left: 100px;
+  justify-content: space-between;
+}
+
+.header-texto h1 {
+  font-family: "Merriwether Bold";
+  font-size: 2.25em;
+  line-height: 1.4;
+  max-width: 15ch;
+}
+
+.header-texto p {
+  font-family: "Lato Regular";
+  padding-top: 10px;
+  font-size: 1.19em;
+  line-height: 2;
+  max-width: 35ch;
+  font-weight: 400;
+}
+
+.header-texto button {
+  font-family: "Lato Regular";
+  margin-top: 40px;
+  padding: 20px 60px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 1.25em;
+}
+
+.img {
+  
+}
