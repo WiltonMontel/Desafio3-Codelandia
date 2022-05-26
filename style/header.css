@@ -1,9 +1,12 @@
-header {
+.bg-site {
   display: flex;
   height: 560px;
+  justify-content: space-between;
+}
+
+.header-texto {
   padding-top: 130px;
   padding-left: 100px;
-  justify-content: space-between;
 }
 
 .header-texto h1 {
@@ -31,6 +34,57 @@ header {
   font-size: 1.25em;
 }
 
-.img {
-  
+.div-img {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 30px;
+}
+
+.div-img img {
+  width: 500px;
+}
+
+/* Responsivo abaixo dos 800px */
+@media (max-width: 800px) {
+  .header-texto h1 {
+    font-size: 2em;
+  }
+  .header-texto button {
+    margin-top: 20px;
+  }
+}
+
+/* Abaixo de 650px */
+@media (max-width: 650px) {
+  .bg-site {
+    flex-direction: column;
+    height: 1000px;
+  }
+  .header-texto {
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-texto h1 {
+    font-size: 2em;
+  }
+  .header-texto p {
+    font-size: 1.1em;
+  }
+  .div-img {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header-texto button {
+    margin-top: 30px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1em;
+  }
+  .div-img img {
+    width: 330px;
+  }
 }
