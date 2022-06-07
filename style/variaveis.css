@@ -8,6 +8,14 @@
 
   --title: #2b2b2b;
   --text: #555555;
+
+  /* cores cards */
+  --card1: #ff6363;
+  --card2: #63ecff;
+  --card3: #f363ff;
+  --card4: #63ff73;
+  --card5: #ffdd63;
+  --card6: #6663ff;
 }
 
 .bg-site {
@@ -28,4 +36,28 @@
 
 .text {
   color: var(--text);
+}
+
+.card1 {
+  background-color: var(--card1);
+}
+
+.card2 {
+  background-color: var(--card2);
+}
+
+.card3 {
+  background-color: var(--card3);
+}
+
+.card4 {
+  background-color: var(--card4);
+}
+
+.card5 {
+  background-color: var(--card5);
+}
+
+.card6 {
+  background-color: var(--card6);
 }
